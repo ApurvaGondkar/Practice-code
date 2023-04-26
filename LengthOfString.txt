@@ -1,0 +1,10 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+       string s ="APURVA";
+       Console.WriteLine("Length of String is :" +s.Length);
+    }
+}

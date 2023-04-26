@@ -1,0 +1,19 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int i;
+        Console.WriteLine("Enter the no:");
+        i=Convert.ToInt32(Console.ReadLine());
+        if(i%2==0)
+        {
+            Console.WriteLine("No is even");
+        }
+        else
+        {
+            Console.WriteLine("No is Odd");
+        }
+    }
+}
